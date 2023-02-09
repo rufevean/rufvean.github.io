@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://www.linkpicture.com/q/655338c996b7fc0b1c0a7e8df5c29c7d.jpg');
+    background-size: cover;
+    transition: all ease-in-out 0.3s;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+    background-repeat: no-repeat;
+}
+.navdc{
+    font-size:6vmin;
+    font-family: 'Amatic SC';
+    color:#270015;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-left:5%;
+    position:absolute;
+}
+
+a{
+    text-decoration: none;
+}
+#navder{
+    color: #270015;
+}
+
+.ab3{
+    display: grid;
+    border-color:#270015;
+    border-width: 2px;
+}
+.aboutmein1{
+    width: 25px;
+    margin-right: 5%;
+}
+
+.aboutmein2{
+    width: 40px;
+    margin-right: 5%;
+
+}
+
+.aboutmein3{
+    width: 55px ;
+    margin-right: 5%;
+
+}
+
+.ab2{
+    margin: 4.5% auto auto auto;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    width: 60px;
+    cursor: pointer;
+}
+
+#toggle{
+    display: none;
+    cursor: pointer;
+}
+
+
+.transition1{
+
+    animation: ani1 3s none none 0 backwards slidein;
+}
+
+@keyframes ani1 {
+    0%{background-image: none;background-color: aliceblue;}
+    33%{background-image: none;background-color: #270015;}
+    99%{background-image: none;background-color: aquamarine;}
+    
+}
+
+
+
+
